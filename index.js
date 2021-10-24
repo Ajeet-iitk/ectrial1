@@ -18,9 +18,9 @@ header1.appendChild(h31);
 div1.appendChild(header1);
 
 var k;
-const name1 = ["Kartik Gupta" , "Vedaant Coin" , "Anshika Sports"];
+const name1 = ["Ajeet Kushwaha" , "Vedaant Coin" , "Anshika Sports"];
 const posts1 = ["President, Students’ Gymkhana" , "PRESIDENT, STUDENTS’ GYMKHANA" , "GENERAL SECRETARY, GAMES AND SPORTS"];
-const link1 = ["Kartik.jpg" , "Vedaant.jpg" , "Anshika.jpg"];
+const link1 = ["Aj-img.jpg" , "Vedaant.jpg" , "Anshika.jpg"];
 for(k = 0; k < 3; k++)
 {
 	var div11 = document.createElement('div');
