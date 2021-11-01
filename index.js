@@ -27,11 +27,11 @@ fordiv.style.display = "flex";
 
 
 var k;
-const name1 = ["Ajeet K." , "Vedaant Coin" , "Anshika Sports"];
-const posts1 = ["President, Students’ Gymkhana" , "PRESIDENT, STUDENTS’ GYMKHANA" , "GENERAL SECRETARY, GAMES AND SPORTS"];
-const link1 = ["Aj-img.jpg" , "Vedaant.jpg" , "Anshika.jpg"];
-const html_link = ["https://eciitk.com/candidates/kartikgupta.html", "https://eciitk.com/candidates/vedaantsikka.html", "https://eciitk.com/candidates/anshikachaudhary.html"];
-for(k = 0; k < 3; k++)
+const name1 = ["Ajeet K." , "Vedaant Coin" , "Anshika Sports" , "Vedaant Coin" , "Deepak Kumar" , "Shloka Patil" , "Anshul Singh" , "Deepesh Garg" , "Utkarsh Gupta" , "Khushbu Kishnani" , "NOTA"];
+const posts1 = ["President, Students’ Gymkhana" , "PRESIDENT, STUDENTS’ GYMKHANA" , "GENERAL SECRETARY, GAMES AND SPORTS" , "GENERAL SECRETARY, GAMES AND SPORTS" , "GENERAL SECRETARY, UG ACADEMICS AND CAREER" , "GENERAL SECRETARY, MEDIA AND CULTURE" , "GENERAL SECRETARY, MEDIA AND CULTURE" , "GENERAL SECRETARY, SCIENCE AND TECHNOLOGY" , "GENERAL SECRETARY, PG ACADEMICS AND CAREER" , "NONE OF THE ABOVE"];
+const link1 = ["Aj-img.jpg" , "Vedaant.jpg" , "Anshika.jpg" ,  "Deepak_photo.jpg" , "Shloka_Patil.jpg" , "Anshul_Singh.jpg" , "Deepesh_photo.jpg" , "Utkarsh.png" , "Khushbu_kishnani.jpg" , "NOTA.png"];
+const html_link = ["https://eciitk.com/candidates/kartikgupta.html", "https://eciitk.com/candidates/vedaantsikka.html", "https://eciitk.com/candidates/anshikachaudhary.html" , "https://eciitk.com/candidates/deepakkumar.html" , "https://eciitk.com/candidates/shlokapatil.html" , "https://eciitk.com/candidates/anshulsingh.html" , "https://eciitk.com/candidates/deepeshgarg.html" , "https://eciitk.com/candidates/utkarshgupta.html" , "https://eciitk.com/candidates/khusbukishnani.html" , "https://eciitk.com/#portfolio"];
+for(k = 0; k < 10; k++)
 {
 	var div11 = document.createElement('div');
 	div11.classList.add('col-lg-4','col-md-6','portfolio-item');
