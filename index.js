@@ -20,7 +20,7 @@ div1.appendChild(header1);
 var fordiv = document.createElement('div');
 fordiv.classList.add('row' , 'portfolio-container');
 fordiv.style.position = "relative";
-fordiv.style.height = "1440px";
+//fordiv.style.height = "1440px";
 fordiv.style.display = "flex";
 //fordiv.style.margin-right = "-15px";
 //fordiv.style.margin-left = "-15px";
