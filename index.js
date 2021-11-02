@@ -20,10 +20,7 @@ div1.appendChild(header1);
 var fordiv = document.createElement('div');
 fordiv.classList.add('row' , 'portfolio-container');
 fordiv.style.position = "relative";
-//fordiv.style.height = "1440px";
-fordiv.style.display = "flex";
-//fordiv.style.margin-right = "-15px";
-//fordiv.style.margin-left = "-15px";
+fordiv.style.height = "1440px";
 
 
 var k;
@@ -34,24 +31,35 @@ const html_link = ["https://eciitk.com/candidates/kartikgupta.html", "https://ec
 for(k = 0; k < 10; k++)
 {
 	var div11 = document.createElement('div');
-	div11.classList.add('col-lg-4','col-md-6','portfolio-item');
+	div11.classList.add('col-lg-4','col-md-6','portfolio-item' , 'filter-web' , 'wow' , 'fadeInUp');
 
 		//div11.style.position = "absolute";
 		div11.style.left =  "0px";
 		div11.style.top = "0";
-		//div11.style.visibility = "visible";
-		//div11.style.animation-delay = "0.2s";
-		//div11.style.animation-name = "fadeInUp";
+		div11.style.visibility = "visible";
+		div11.style.animationDelay = "0.2s";
+		div11.style.animationName = "fadeInUp";
 
-
+	var div211 = document.createElement('div');
+		div211.classList.add('portfolio-wrap');
 	var figure1 = document.createElement('figure');
 	var img2 = document.createElement('img');
 	img2.src = link1[k];
 	img2.style.width = "100%";
-	//img2.style.height = "200px";
-	img2.classList.add('img-fluid' , 'center');
+	img2.classList.add('img-fluid');
 	figure1.appendChild(img2);
-	div11.appendChild(figure1);
+	var a12 = document.createElement('a');
+	a12.href = html_link[k];
+	a12.target = "_blank";
+	a12.classList.add('link-details');
+	var a12img = document.createElement('img');
+	a12img.src = link1[k];
+	a12img.classList.add('img-fluid');
+	a12img.style.width = "100%";
+	a12img.style.alignSelf = "center";
+	a12.appendChild(a12img);
+	figure1.appendChild(a12);
+	div211.appendChild(figure1);
 
 	var div111 = document.createElement('div');
 	div111.classList.add("portfolio-info");
@@ -76,7 +84,8 @@ for(k = 0; k < 10; k++)
 	div111.appendChild(p1);
 
 
-	div11.appendChild(div111);
+	div211.appendChild(div111);
+	div11.appendChild(div211);
 
 
 	
